@@ -1,3 +1,4 @@
+/* --------Navigation--------- */
 .mynav{
     background: $primary;
     color: $secondary;
@@ -36,4 +37,33 @@
     color: $secondary;
     font-weight: 600;
     text-align: center;
+}
+/* --------Footer--------- */
+footer{
+    background: $primary;
+    padding: 2rem;
+    .logo2{
+        height: 3rem;
+    }
+    h5{
+        color: $white;
+        font-size: 1.5rem;
+    }
+    a{
+        color: $secondary;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    a:hover{
+        color: $tertiary;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    p{
+        color: $white;
+        padding: 1rem;
+    }
+    .copyright{
+        font-size: 0.8rem;
+    }
 }
