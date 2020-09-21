@@ -6,6 +6,8 @@
 
 .card__promotion {
     height: 500px;
+    box-shadow: 0 2px 5px rgba($color: #000000, $alpha: .4);
+    border: 0;
 
     .card-header {
         background: $black;
