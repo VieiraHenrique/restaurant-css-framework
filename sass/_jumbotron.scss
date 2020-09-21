@@ -1,10 +1,20 @@
 
-body {
-    color: red;
-}
 
 .jumbotron {
     background-image: url(/img/jumbo-pic.jpg);
     background-size: cover;
-    height: 100%;
+    height: 60vh;
+    width: 100vw;
+        h1 {
+            color: $secondary;
+            translate: 1% -50%;
+            font-weight: bold;
+        }
+        p {
+            color: $primary;
+            font-weight: bold;
+            a {
+                margin-top: 2em;
+            }
+        }
 }
