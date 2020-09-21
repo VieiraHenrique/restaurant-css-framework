@@ -1,19 +1,28 @@
 .mynav{
     background: $primary;
+    color: $secondary;
 
-    .nav-link1{
+    .nav-link{
         padding-right: 1rem;
-        font-weight: 700;
+        font-weight: 700;  
+        
+
+        a{
+            list-style: none;
+            color: red !important; 
+            text-decoration: none;
+        }
+        a:hover{
+            color: $tertiary;
+            text-decoration: none;
+        }     
     }
-    .nav-link1:visited .nav-link1:link{
-       color: $secondary;
-       text-decoration: none;
-    }
-    .nav-link1:hover{
-       color: $tertiary;
-       text-decoration: none;
-    }
+    
+    
     .logo{
         height: 2rem;
     }
+}
+#test{
+    color: $secondary;
 }
