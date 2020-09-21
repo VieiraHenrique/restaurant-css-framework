@@ -201,7 +201,8 @@ body {
 }
 
 .jumbotron {
-  background-image: url(/img/jumbo-pic.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.2))), url("/img/jumbo-pic.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("/img/jumbo-pic.jpg");
   background-size: cover;
   height: 60vh;
   width: 100vw;
@@ -209,16 +210,20 @@ body {
 
 .jumbotron h1 {
   color: #55A0AD;
-  translate: 1% -50%;
   font-weight: bold;
 }
 
 .jumbotron p {
-  color: #16232E;
+  color: #F5E910;
   font-weight: bold;
 }
 
 .jumbotron p a {
   margin-top: 2em;
+}
+
+.jumbotron p .btn-primary {
+  background: #55A0AD;
+  border: 1px solid #55A0AD;
 }
 /*# sourceMappingURL=style.css.map */

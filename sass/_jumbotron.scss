@@ -1,20 +1,26 @@
 
 
 .jumbotron {
-    background-image: url(/img/jumbo-pic.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url('/img/jumbo-pic.jpg');
     background-size: cover;
     height: 60vh;
     width: 100vw;
         h1 {
             color: $secondary;
-            translate: 1% -50%;
+            // translate: 1% -50%;
             font-weight: bold;
+            // text-shadow: #fff 0px 0px 2px;
         }
         p {
-            color: $primary;
+            color: $tertiary;
             font-weight: bold;
             a {
                 margin-top: 2em;
+                
+            }
+            .btn-primary {
+                background: $secondary;
+                border: 1px solid $secondary;
             }
         }
 }
