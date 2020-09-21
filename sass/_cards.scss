@@ -1,17 +1,24 @@
 /* CARDS */
 
 .card__promotion {
+    height: 500px;
+
     .card-header {
         background: $black;
         color: $tertiary;
     }
 
     .card-body {
-        background: $primary;
+        padding: 50px;
         color: $white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
 
         span {
             color: $tertiary;
+            font-weight: 600;
         }
     }
 
@@ -19,4 +26,19 @@
         background: $secondary;
         border: 2px solid $secondary;
     }
+
+    .card-footer {
+
+        height: 200px;
+    }
+}
+
+.img-pizza {
+    background: linear-gradient(rgba(22, 35, 46, .9), rgba(22, 35, 46, .9)), url(../img/hv-pizza1.jpg);
+    background-size: cover;
+}
+
+.img-resto {
+    background: linear-gradient(rgba(22, 35, 46, .9), rgba(22, 35, 46, .9)), url(../img/hv-resto1.jpg);
+    background-size: cover;
 }
