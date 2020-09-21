@@ -18,6 +18,10 @@
   text-decoration: none;
 }
 
+.mynav .logo {
+  height: 2rem;
+}
+
 body {
   font-family: 'Titillium Web', sans-serif;
 }
