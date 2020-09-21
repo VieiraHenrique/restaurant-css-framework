@@ -1,0 +1,22 @@
+/* CARDS */
+
+.card__promotion {
+    .card-header {
+        background: $black;
+        color: $tertiary;
+    }
+
+    .card-body {
+        background: $primary;
+        color: $white;
+
+        span {
+            color: $tertiary;
+        }
+    }
+
+    .btn-primary {
+        background: $secondary;
+        border: 2px solid $secondary;
+    }
+}
