@@ -4,7 +4,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url('/img/jumbo-pic.jpg');
     background-size: cover;
     height: 60vh;
-    width: 100vw;
+    width: auto;
         h1 {
             color: $secondary;
             // translate: 1% -50%;
@@ -16,11 +16,16 @@
             font-weight: bold;
             a {
                 margin-top: 2em;
-                
             }
             .btn-primary {
                 background: $secondary;
-                border: 1px solid $secondary;
+                background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url('/img/YGlogorond1.png');
+                background-size: 120%;
+                overflow: visible;
+                background-repeat: no-repeat;
+                border: 3px solid $secondary;
+                border-radius: 50%;
+                padding: 38px 15px;
             }
         }
 }
