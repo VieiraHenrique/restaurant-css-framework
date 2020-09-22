@@ -1,0 +1,69 @@
+/* --------Navigation--------- */
+.mynav{
+    background: $primary;
+    color: $secondary;
+    text-align: center;
+    .nav-link{
+        padding-right: 1rem;
+        font-weight: 700;  
+
+        a:hover{
+            color: $tertiary;
+            text-decoration: none;
+        }     
+    }
+    .logo{
+        height: 2rem;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: $secondary !important;
+} 
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: $tertiary !important;
+} 
+.dropme{
+    background: $primary;
+    border: none;
+    color: $secondary;
+    text-align: center;
+    a:hover{
+        color: $tertiary;
+        background: $primary;
+    }
+} 
+.dropme .dropdown-item{
+    color: $secondary;
+    font-weight: 600;
+    text-align: center;
+}
+/* --------Footer--------- */
+footer{
+    background: $primary;
+    padding: 2rem;
+    .logo2{
+        height: 3rem;
+    }
+    h5{
+        color: $white;
+        font-size: 1.5rem;
+    }
+    a{
+        color: $secondary;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    a:hover{
+        color: $tertiary;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    p{
+        color: $white;
+        padding: 1rem;
+    }
+    .copyright{
+        font-size: 0.8rem;
+    }
+}

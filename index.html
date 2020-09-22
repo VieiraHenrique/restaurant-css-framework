@@ -12,15 +12,47 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Custom styles -->
     <link rel="stylesheet" href="css/style.css">
-    <title>Title</title>
+    <title> BePizza </title>
+    <link rel="icon" type="image/png" href="img/YGlogorond1.png" />
+
 </head>
 
 <body>
     <!-- ***** HEADER START ***** -->
     <header>
-        <nav>
-            <!-- THE NAV BAR -->
+        <!-- THE NAV BAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark mynav">
+            <a class="navbar-brand" href="#"> <img src="img/Logo-nav.svg" alt="Logo" class="logo"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="carte.html">Carte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="photo.html">Photo</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Restaurants
+                        </a>
+                        <div class="dropdown-menu dropme" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Restaurant 1</a>
+                            <a class="dropdown-item" href="#">Restaurant 2</a>
+                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+            </div>
         </nav>
 
     </header>
@@ -66,14 +98,95 @@
                 </div>
             
     
+            <article class="jumbotron">
+                <h1 class="display-4">PizzAwesome</h1>
+                <p class="lead">At BePizza, we code pizzas that will redefine your understanding of quality.</p>
+                 <!-- <hr class="my-4 bg-primary"> -->
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Taste me</a>
+                </p>
+            </article>
+        </section>
+        <section>
+            <!-- NEWS -->
+            <div class="container sep">
+                <div class="row">
+                    <div class="col-md-6 my-3 my-md-0">
+                        <div class="card text-center card__promotion rounded">
+                            <div class="card-header text-uppercase">
+                                <strong>Promotion</strong>
+                            </div>
+                            <div class="card-body img-pizza">
+                                <h5 class="card-title">Jusqu'au 17 février:</h5>
+                                <h2><span class="display-1">50%</span><br> sur le deuxième menu !</h2>
+                                <p class="card-text lead">Valable pour tous les menus napolitains</p>
+                                <a href="#" class="btn btn-primary">Commander maintenant</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 my-3 my-md-0">
+                        <div class="card text-center card__promotion">
+                            <div class="card-header text-uppercase">
+                                <strong>News</strong>
+                            </div>
+                            <div class="card-body img-resto">
+                                <h5 class="card-title">Dès le 02 Mars :</h5>
+                                <h2 class="display-4"><span>Nouveau Restaurant</span><br> à Charleroi</h2>
+                                <p class="card-text lead">BePizza ouvre ses portes au Square des Martyrs !</p>
+                                <a href="#" class="btn btn-primary">Participer à l'inauguration</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <!-- ABOUT US -->
         </section>
     </main>
     <!-- ***** FOOOOOOOOOOODEEEEEEER. FOOD. ****** -->
     <footer>
-
-    </footer>
-
-
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="img/Logo-nav.svg" alt="Logo" class="logo2">
+              <p>BePizza, La pizzéria de vos rêves pas loin de chez vous</p>
+            </div>
+            <div class="col-md-3">
+              <ul class="list-unstyled">
+                <li>
+                  <a href="index.html">Accueil</a>
+                </li>
+                <li>
+                  <a href="carte.html">Carte</a>
+                </li>
+                <li>
+                  <a href="photo.html">Photo</a>
+                </li>
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+      
+            </div>
+            <div class="col-md-3">
+              <h5 class="text-uppercase">Restaurants</h5>
+              <ul class="list-unstyled">
+                <li class="litle">
+                  <a href="#!" >Restaurant 1</a>
+                </li>
+                <li class="litle">
+                  <a href="#!" >Restaurant 2</a>
+                </li>
+              </ul>
+      
+            </div>  
+          </div>
+          </div>
+        <div class="footer-copyright text-center py-3">
+           <p class="copyright"> © 2020 Copyright: BePizza </p>
+        </div>  
+      </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
