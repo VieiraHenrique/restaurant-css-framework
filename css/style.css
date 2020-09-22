@@ -216,23 +216,31 @@ footer .copyright {
 
 h3 {
   color: #FFFFFF;
-  -webkit-text-decoration: dashed;
-          text-decoration: dashed;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
 }
 
 .position-rel {
   position: relative;
 }
 
-.position-sticky {
-  position: -webkit-sticky;
-  position: sticky;
+.position-abs {
+  position: absolute;
   -webkit-transform: translateY(100px);
           transform: translateY(100px);
 }
 
-.YGtexte {
+.YGtext {
+  position: -webkit-sticky;
+  position: sticky;
   color: #16232E;
+}
+
+.position-sticky {
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 /* --------Footer--------- */
