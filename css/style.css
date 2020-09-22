@@ -246,6 +246,16 @@ h3 {
   margin-top: 50px;
 }
 
+.fal {
+  border-radius: 50%;
+  border: 2px solid #F5E910;
+}
+
+.fas {
+  border-radius: 50%;
+  border: 2px solid #16232E;
+}
+
 #photomatron h2 {
   color: #55A0AD;
   text-align: center;
