@@ -236,7 +236,11 @@ h3 {
   position: -webkit-sticky;
   position: sticky;
   color: #16232E;
+<<<<<<< HEAD
   margin-top: 50px;
+=======
+  position: sticky;
+>>>>>>> 7cc88ef26a0670a72021a4b7825fd102cde409d7
 }
 
 .position-sticky {
@@ -315,6 +319,14 @@ p {
 
 #liege .container {
   padding-top: 2.5rem;
+}
+
+#Text {
+  color: #F5E910;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 5rem;
+  font-weight: bold;
 }
 
 #contact .container-fluid {
