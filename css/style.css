@@ -3,7 +3,6 @@ body {
   font-family: 'Titillium Web', sans-serif;
 }
 
-<<<<<<< HEAD
 .img-circle {
   width: 50%;
   border: 5px solid #55A0AD;
@@ -45,7 +44,8 @@ p {
 
 body {
   background-color: #16232E;
-=======
+}
+
 /* --------Navigation--------- */
 .mynav {
   background: #16232E;
@@ -356,6 +356,5 @@ footer .copyright {
           box-shadow: 0 5px #666;
   -webkit-transform: translateY(8px);
           transform: translateY(8px);
->>>>>>> 64fb4c0632177ca0b175351af4546658158761cb
 }
 /*# sourceMappingURL=style.css.map */
