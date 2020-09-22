@@ -239,6 +239,19 @@ p {
   color: #16232E;
 }
 
+#photomatron h2 {
+  color: #55A0AD;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 0.6em;
+}
+
+#photomatron img {
+  width: 100%;
+  height: 100%;
+  padding-top: 15px;
+}
+
 /* --------Footer--------- */
 footer {
   background: #16232E;
