@@ -6,7 +6,8 @@
         "../sass/_navigation.scss",
         "../sass/_jumbotron.scss",
         "../sass/_cards.scss",
-        "../sass/_about-us.scss"
+        "../sass/_about-us.scss",
+        "../sass/_photomatron.scss"
     ],
     "names": [],
     "file": "style.css"
