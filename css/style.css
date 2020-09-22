@@ -236,16 +236,14 @@ h3 {
   position: -webkit-sticky;
   position: sticky;
   color: #16232E;
-<<<<<<< HEAD
   margin-top: 50px;
-=======
   position: sticky;
->>>>>>> 7cc88ef26a0670a72021a4b7825fd102cde409d7
 }
 
 .position-sticky {
   position: -webkit-sticky;
   position: sticky;
+  margin-top: 50px;
 }
 
 #photomatron h2 {
