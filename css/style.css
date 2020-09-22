@@ -232,6 +232,13 @@ h3 {
 
 .YGtexte {
   color: #16232E;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.position-stucky {
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 /* --------Footer--------- */
