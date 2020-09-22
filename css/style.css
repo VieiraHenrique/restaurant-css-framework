@@ -288,4 +288,27 @@ footer p {
 footer .copyright {
   font-size: 0.8rem;
 }
+
+h6 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #55A0AD;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 400;
+}
+
+#charleroi {
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+}
+
+#liege .container {
+  padding-top: 2.5rem;
+}
 /*# sourceMappingURL=style.css.map */
