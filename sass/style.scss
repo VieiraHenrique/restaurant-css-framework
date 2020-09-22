@@ -11,12 +11,10 @@ $white: #FFFFFF;
 body {
     font-family: 'Titillium Web', sans-serif;
 }
-<<<<<<< HEAD
-@import "about-us"
-=======
+
+@import "about-us";
 
 @import 'navigation';
-//@import "about-us.scss";
 
 @import 'cards';
 
@@ -24,4 +22,4 @@ body {
 @import 'cards';
 @import 'cards';
 @import 'jumbotron';
->>>>>>> 64fb4c0632177ca0b175351af4546658158761cb
+
