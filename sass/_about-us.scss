@@ -1,6 +1,6 @@
 .img-circle {
     width: 50%;
-    border: 5px solid $secondary;
+    border: 5px solid $white;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -8,11 +8,7 @@
     margin-top: 2%;
     margin-top: $white;
 
-    .background-circle {
-        background-color: $white;
-        border-radius: 50% $white;
-        border: 10px solid $white;
-    }
+
 
 
 
@@ -43,6 +39,6 @@ h3 {
     transform: translateY(100px);
 }
 
-p {
+.YGtexte {
     color: $primary;
 }
