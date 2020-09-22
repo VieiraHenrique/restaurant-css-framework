@@ -8,6 +8,12 @@
     margin-top: 2%;
     margin-top: $white;
 
+    .background-circle {
+        background-color: $white;
+        border-radius: 50% $white;
+        border: 10px solid $white;
+    }
+
 
 
 }
