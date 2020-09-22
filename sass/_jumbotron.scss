@@ -1,7 +1,7 @@
 
 
 .jumbotron {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url('/img/jumbo-pic.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("../img/jumbo-pic.jpg");
     background-size: cover;
     height: 60vh;
     width: auto;
@@ -19,7 +19,7 @@
             }
             .btn-primary {
                 background: $secondary;
-                background-image:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/img/YGPizza2.png');
+                background-image:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/YGPizza2.png");
                 background-size: 100%;
                 background-repeat: no-repeat;
                 border: 3px solid $secondary;
