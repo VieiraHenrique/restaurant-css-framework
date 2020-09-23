@@ -87,6 +87,7 @@ ul {
     justify-content: space-between;
     align-items: center;
 
+
 }
 
 .badge {
@@ -105,8 +106,9 @@ ul {
 }
 
 span {
-    background-color: $secondary;
+    background-color: $white;
     border-radius: 50%;
+    margin-right: 5%;
 
 }
 
@@ -123,4 +125,14 @@ span {
     font-size: 1em;
     text-align: right;
     text-decoration: underline;
+}
+
+
+.dishes {
+    background-image: url(../img/fond-carte.jpg);
+    width: 100%;
+    height: auto;
+
+
+
 }

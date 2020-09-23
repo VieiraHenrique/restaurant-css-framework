@@ -301,10 +301,10 @@ ul {
   background-color: #55A0AD;
 }
 
-<<<<<<< HEAD
 span {
-  background-color: #55A0AD;
+  background-color: #FFFFFF;
   border-radius: 50%;
+  margin-right: 5%;
 }
 
 .subtil-3 {
@@ -321,7 +321,12 @@ span {
   text-decoration: underline;
 }
 
-=======
+.dishes {
+  background-image: url(../img/fond-carte.jpg);
+  width: 100%;
+  height: auto;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -331,7 +336,6 @@ html {
   text-align: center;
 }
 
->>>>>>> dc852e917f0b7a5217e809169928ac3b78488669
 #photomatron h2 {
   color: #55A0AD;
   text-align: center;
