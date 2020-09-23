@@ -310,7 +310,16 @@ ul {
 #photomatron img {
   width: 100%;
   height: 100%;
-  padding-top: 15px;
+  padding: 15px;
+  scale: 1;
+  cursor: pointer;
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+}
+
+#photomatron img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 /* --------Footer--------- */
@@ -374,11 +383,15 @@ p {
 }
 
 #Text {
-  color: #F5E910;
+  color: #55A0AD;
   font-size: 2rem;
   text-align: center;
   padding-top: 5rem;
   font-weight: bold;
+}
+
+.myborder {
+  border-top: #F5E910 1px solid;
 }
 
 #contact .container-fluid {
