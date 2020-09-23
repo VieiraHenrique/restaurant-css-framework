@@ -328,11 +328,15 @@ p {
 }
 
 #Text {
-  color: #F5E910;
+  color: #55A0AD;
   font-size: 2rem;
   text-align: center;
   padding-top: 5rem;
   font-weight: bold;
+}
+
+.myborder {
+  border-top: #F5E910 1px solid;
 }
 
 #contact .container-fluid {
