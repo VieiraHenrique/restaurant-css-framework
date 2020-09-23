@@ -321,15 +321,12 @@ span {
   text-decoration: underline;
 }
 
-<<<<<<< HEAD
 .dishes {
   background-image: url(../img/fond-carte.jpg);
   width: 100%;
   height: auto;
 }
 
-=======
->>>>>>> f95119648e85fcba5513350a8126e822a40b4c42
 html {
   scroll-behavior: smooth;
 }
