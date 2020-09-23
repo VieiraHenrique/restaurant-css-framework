@@ -41,7 +41,7 @@ h4 {
     font-weight: bolder;
 }
 
-h5 {
+.titleyg {
     color: $primary;
     background-color: $white;
     background-size: weight 100%;
@@ -97,6 +97,7 @@ ul {
     justify-content: right;
     text-align: justify;
 
+
 }
 
 .subtil-2 {
@@ -107,12 +108,7 @@ ul {
 
 }
 
-span {
-    background-color: $white;
-    border-radius: 50%;
-    margin-right: 5%;
 
-}
 
 .subtil-3 {
     margin-top: 5%;
@@ -135,7 +131,7 @@ span {
     width: 100%;
     height: auto;
     background-size: cover;
-    opacity: 50%;
+
 
 
 
