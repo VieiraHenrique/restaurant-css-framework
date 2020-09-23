@@ -95,19 +95,25 @@ ul {
 
 }
 
+
 .badge {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: right;
     text-align: justify;
 
+}
 
+.price {
+    font-size: 1em;
+    color: $primary;
+    font-weight: bold;
 }
 
 .subtil-2 {
     text-align: center;
     margin-top: 10%;
     background-color: $secondary;
-
 
 }
 
