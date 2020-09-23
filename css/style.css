@@ -241,11 +241,45 @@ h3 {
   position: sticky;
 }
 
+#photomatron h1 {
+  color: #16232E;
+  text-align: center;
+}
+
 #photomatron h2 {
   color: #55A0AD;
   text-align: center;
   font-weight: bold;
   padding-top: 0.6em;
+}
+
+#photomatron ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 2em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#photomatron ul a {
+  color: #16232E;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid #16232E;
+  background: #F5E910;
+}
+
+#photomatron ul a:hover {
+  color: #F5E910;
+  background: #55A0AD;
+  text-decoration: none;
 }
 
 #photomatron img {
