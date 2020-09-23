@@ -50,43 +50,6 @@ body {
   text-align: center;
 }
 
-/* --------Footer--------- */
-footer {
-  margin-top: 200px;
-  background: #16232E;
-  padding: 2rem;
-}
-
-footer .logo2 {
-  height: 3rem;
-}
-
-footer h5 {
-  color: #FFFFFF;
-  font-size: 1.5rem;
-}
-
-footer a {
-  color: #55A0AD;
-  text-decoration: none;
-  font-weight: 700;
-}
-
-footer a:hover {
-  color: #F5E910;
-  text-decoration: none;
-  font-weight: 700;
-}
-
-footer p {
-  color: #FFFFFF;
-  padding: 1rem;
-}
-
-footer .copyright {
-  font-size: 0.8rem;
-}
-
 .jumbotron {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.2))), url("../img/jumbo-pic.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("../img/jumbo-pic.jpg");
@@ -433,7 +396,7 @@ html {
   scroll-behavior: smooth;
 }
 
-h6 {
+.title1 {
   font-weight: 700;
   font-size: 1.5rem;
   color: #55A0AD;
@@ -443,7 +406,7 @@ h6 {
   font-weight: 600;
 }
 
-p {
+.container p {
   font-weight: 400;
 }
 
