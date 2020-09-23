@@ -92,6 +92,8 @@ ul {
 .badge {
     display: flex;
     justify-content: right;
+    text-align: justify;
+
 }
 
 .subtil-2 {
@@ -100,4 +102,25 @@ ul {
     background-color: $secondary;
 
 
+}
+
+span {
+    background-color: $secondary;
+    border-radius: 50%;
+
+}
+
+.subtil-3 {
+    margin-top: 5%;
+    color: $white;
+    background-color: $primary;
+    text-align: center;
+
+}
+
+.subtil-4 {
+    margin-top: 10%;
+    font-size: 1em;
+    text-align: right;
+    text-decoration: underline;
 }

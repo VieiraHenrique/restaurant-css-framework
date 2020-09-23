@@ -292,12 +292,32 @@ ul {
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
+  text-align: justify;
 }
 
 .subtil-2 {
   text-align: center;
   margin-top: 10%;
   background-color: #55A0AD;
+}
+
+span {
+  background-color: #55A0AD;
+  border-radius: 50%;
+}
+
+.subtil-3 {
+  margin-top: 5%;
+  color: #FFFFFF;
+  background-color: #16232E;
+  text-align: center;
+}
+
+.subtil-4 {
+  margin-top: 10%;
+  font-size: 1em;
+  text-align: right;
+  text-decoration: underline;
 }
 
 #photomatron h2 {
