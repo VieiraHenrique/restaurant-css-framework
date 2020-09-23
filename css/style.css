@@ -254,6 +254,10 @@ h3 {
   border-radius: 50%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #photomatron h1 {
   color: #16232E;
   text-align: center;
@@ -275,23 +279,24 @@ h3 {
       -ms-flex-direction: row;
           flex-direction: row;
   gap: 2em;
+  padding-top: 0.7rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
 #photomatron ul a {
-  color: #16232E;
-  padding: 5px;
+  color: #55A0AD;
+  padding: 0.5rem;
   cursor: pointer;
   font-weight: bold;
+  border-radius: 0.5rem;
   border: 1px solid #16232E;
-  background: #F5E910;
+  background: #16232E;
 }
 
 #photomatron ul a:hover {
   color: #F5E910;
-  background: #55A0AD;
   text-decoration: none;
 }
 
