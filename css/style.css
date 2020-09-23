@@ -300,11 +300,50 @@ ul {
   background-color: #55A0AD;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+#photomatron h1 {
+  color: #16232E;
+  text-align: center;
+}
+
 #photomatron h2 {
   color: #55A0AD;
   text-align: center;
   font-weight: bold;
   padding-top: 0.6em;
+}
+
+#photomatron ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 2em;
+  padding-top: 0.7rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#photomatron ul a {
+  color: #55A0AD;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  border: 1px solid #16232E;
+  background: #16232E;
+}
+
+#photomatron ul a:hover {
+  color: #F5E910;
+  text-decoration: none;
 }
 
 #photomatron img {
