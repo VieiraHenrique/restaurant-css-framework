@@ -257,10 +257,20 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
   text-align: justify;
+}
+
+.price {
+  font-size: 1em;
+  color: #16232E;
+  font-weight: bold;
 }
 
 .subtil-2 {
