@@ -220,6 +220,9 @@ h3 {
      -moz-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
           text-size-adjust: 100%;
+  font-size: 3em;
+  font-weight: bold;
+  border-color: #16232E;
 }
 
 .position-rel {
