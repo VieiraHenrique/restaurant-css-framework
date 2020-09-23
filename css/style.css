@@ -301,6 +301,7 @@ ul {
   background-color: #55A0AD;
 }
 
+<<<<<<< HEAD
 span {
   background-color: #55A0AD;
   border-radius: 50%;
@@ -320,11 +321,52 @@ span {
   text-decoration: underline;
 }
 
+=======
+html {
+  scroll-behavior: smooth;
+}
+
+#photomatron h1 {
+  color: #16232E;
+  text-align: center;
+}
+
+>>>>>>> dc852e917f0b7a5217e809169928ac3b78488669
 #photomatron h2 {
   color: #55A0AD;
   text-align: center;
   font-weight: bold;
   padding-top: 0.6em;
+}
+
+#photomatron ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 2em;
+  padding-top: 0.7rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#photomatron ul a {
+  color: #55A0AD;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  border: 1px solid #16232E;
+  background: #16232E;
+}
+
+#photomatron ul a:hover {
+  color: #F5E910;
+  text-decoration: none;
 }
 
 #photomatron img {
@@ -379,6 +421,10 @@ footer .copyright {
   font-size: 0.8rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h6 {
   font-weight: 700;
   font-size: 1.5rem;
@@ -412,6 +458,29 @@ p {
 
 .myborder {
   border-top: #F5E910 1px solid;
+}
+
+.list {
+  list-style: none;
+}
+
+.list li a {
+  background: #16232E;
+  margin-right: 2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.list li a:visited, a:link {
+  color: #55A0AD;
+}
+
+.list li a:hover {
+  color: #F5E910;
 }
 
 #contact .container-fluid {
