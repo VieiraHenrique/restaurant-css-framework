@@ -11,7 +11,6 @@ body {
 }
 
 .mynav .nav-link {
-  padding-right: 1rem;
   font-weight: 700;
 }
 
@@ -30,6 +29,10 @@ body {
 
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #F5E910 !important;
+}
+
+.navbar .collapse .ml-auto {
+  margin: 0;
 }
 
 .dropme {
@@ -54,7 +57,7 @@ body {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.2))), url("../img/jumbo-pic.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("../img/jumbo-pic.jpg");
   background-size: cover;
-  height: 60vh;
+  height: auto;
   width: auto;
 }
 
