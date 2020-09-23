@@ -33,8 +33,24 @@ h3 {
 
 }
 
+h4 {
+    color: $primary;
+    font-size: 3em;
+    font-style: italic;
+    margin-top: 5%;
+    font-weight: bolder;
+}
+
+h5 {
+    color: $primary;
+    font-style: italic;
+    margin: 5% 0% 5% 0%;
+    text-decoration: underline;
+}
+
 .position-rel {
     position: relative;
+
 }
 
 .position-abs {
@@ -60,4 +76,28 @@ h3 {
 .fas {
     border: 1px solid $tertiary;
     border-radius: 50%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list-group li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.badge {
+    display: flex;
+    justify-content: right;
+}
+
+.subtil-2 {
+    text-align: center;
+    margin-top: 10%;
+    background-color: $secondary;
+
+
 }
