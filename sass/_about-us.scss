@@ -26,7 +26,10 @@
 
 h3 {
     color: $white;
-    text-decoration: dashed;
+    text-size-adjust: 100%;
+    font-size: 3em;
+    font-weight: bold;
+    border-color: $primary;
 
 }
 
@@ -39,11 +42,22 @@ h3 {
     transform: translateY(100px);
 }
 
-.YGtexte {
+.YGtext {
+    position: sticky;
     color: $primary;
+    margin-top: 50px;
+
     position: sticky;
 }
 
 .position-sticky {
     position: sticky;
+    margin-top: 50px;
+}
+
+
+
+.fas {
+    border: 1px solid $tertiary;
+    border-radius: 50%;
 }

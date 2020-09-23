@@ -18,3 +18,15 @@ p{
 #liege .container{
     padding-top: 2.5rem;
 }
+#Text{
+    color: $secondary;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 5rem;
+    font-weight: bold;
+}
+
+.myborder{
+    border-top: $tertiary 1px solid;
+
+}

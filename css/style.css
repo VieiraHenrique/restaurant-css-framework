@@ -216,8 +216,13 @@ footer .copyright {
 
 h3 {
   color: #FFFFFF;
-  -webkit-text-decoration: dashed;
-          text-decoration: dashed;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+  font-size: 3em;
+  font-weight: bold;
+  border-color: #16232E;
 }
 
 .position-rel {
@@ -230,15 +235,23 @@ h3 {
           transform: translateY(100px);
 }
 
-.YGtexte {
-  color: #16232E;
+.YGtext {
   position: -webkit-sticky;
+  position: sticky;
+  color: #16232E;
+  margin-top: 50px;
   position: sticky;
 }
 
 .position-sticky {
   position: -webkit-sticky;
   position: sticky;
+  margin-top: 50px;
+}
+
+.fas {
+  border: 1px solid #F5E910;
+  border-radius: 50%;
 }
 
 #photomatron h1 {
@@ -355,5 +368,74 @@ p {
 
 #liege .container {
   padding-top: 2.5rem;
+}
+
+#Text {
+  color: #55A0AD;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 5rem;
+  font-weight: bold;
+}
+
+.myborder {
+  border-top: #F5E910 1px solid;
+}
+
+#contact .container-fluid {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.5))), url(../img/hv-contact.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(../img/hv-contact.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+
+#contact .container-fluid h1 {
+  background: #16232E;
+  color: #FFFFFF;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+}
+
+#contact .container-fluid form {
+  position: relative;
+  bottom: 50px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  width: 700px;
+  padding: 50px;
+  -webkit-box-shadow: 0 2px 5px #000000;
+          box-shadow: 0 2px 5px #000000;
+}
+
+#contact .container-fluid form input,
+#contact .container-fluid form textarea,
+#contact .container-fluid form select {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+#contact .container-fluid form .my-input-group {
+  margin: 5px 0;
+}
+
+#contact .container-fluid form input[type="submit"] {
+  background: #16232E;
+  color: #FFFFFF;
+}
+
+#contact .container-fluid form .btn {
+  background: #16232E;
+  color: #FFFFFF;
+}
+
+#contact .container-fluid form .btn i {
+  margin-right: 10px;
 }
 /*# sourceMappingURL=style.css.map */
