@@ -26,6 +26,9 @@
     color: $tertiary !important;
 }
 
+.navbar  .collapse .ml-auto{
+    margin: 0;
+}
 .dropme {
     background: $primary;
     border: none;
