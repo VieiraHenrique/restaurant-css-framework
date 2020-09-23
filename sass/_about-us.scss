@@ -97,6 +97,7 @@ ul {
 
 .badge {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: right;
     text-align: justify;
 
