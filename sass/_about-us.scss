@@ -82,12 +82,14 @@ h4 {
 
 ul {
     list-style-type: none;
+    margin-right: 5%;
 }
 
 .list-group li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 5%;
 
 
 }
@@ -127,10 +129,13 @@ ul {
 
 
 .dishes {
-    background-image: url(../img/fond-carte2.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/fond-carte2.jpg);
     width: 100%;
     height: auto;
     background-size: cover;
+    border-image-width: 100%;
+
+
 
 
 
