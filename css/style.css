@@ -233,7 +233,7 @@ h4 {
   font-weight: bolder;
 }
 
-h5 {
+.titleyg {
   color: #16232E;
   background-color: #FFFFFF;
   background-size: weight 100%;
@@ -303,12 +303,6 @@ ul {
   background-color: #55A0AD;
 }
 
-span {
-  background-color: #FFFFFF;
-  border-radius: 50%;
-  margin-right: 5%;
-}
-
 .subtil-3 {
   margin-top: 5%;
   color: #FFFFFF;
@@ -328,7 +322,6 @@ span {
   width: 100%;
   height: auto;
   background-size: cover;
-  opacity: 50%;
 }
 
 html {
